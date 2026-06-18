@@ -1,0 +1,8 @@
+Package: com.deerspotter.flextest.libflex
+Name: FLEXtest libFLEX
+Version: 5.22.10
+Architecture: iphoneos-arm64
+Description: Rootless libFLEX build from FLEXtest for use by FLEX 4 Beta and tweak loaders.
+Maintainer: DeerSpotter
+Author: DeerSpotter
+Section: Development
