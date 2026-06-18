@@ -2,7 +2,6 @@ ifeq ($(SIMULATOR),1)
 	export ARCHS = arm64 x86_64
 	export TARGET = simulator:clang::15.0
 else
-	export THEOS_PACKAGE_SCHEME = rootless
 	export ARCHS = arm64 arm64e
 	export TARGET = iphone:latest:15.0
 endif
