@@ -1,6 +1,5 @@
 #import "libFLEX.h"
 #import "Classes/Manager/FLEXManager.h"
-#import "Classes/Toolbar/FLEXWindow.h"
 
 id FLXGetManager(void) {
     return [FLEXManager sharedManager];
@@ -11,5 +10,5 @@ SEL FLXRevealSEL(void) {
 }
 
 Class FLXWindowClass(void) {
-    return [FLEXWindow class];
+    return NSClassFromString(@"FLEXWindow");
 }
